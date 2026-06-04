@@ -1,0 +1,17 @@
+{
+    "name": "rental-ps/app",
+    "description": "Rental PlayStation App with Midtrans Payment",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "midtrans/midtrans-php": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "RentalPS\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
